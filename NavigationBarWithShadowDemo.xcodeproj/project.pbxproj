@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E6777FA81563D86200CECD70 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6777FA71563D86200CECD70 /* UIKit.framework */; };
+		E6777FAA1563D86200CECD70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6777FA91563D86200CECD70 /* Foundation.framework */; };
+		E6777FAC1563D86200CECD70 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6777FAB1563D86200CECD70 /* CoreGraphics.framework */; };
+		E6777FB21563D86200CECD70 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6777FB01563D86200CECD70 /* InfoPlist.strings */; };
+		E6777FB41563D86200CECD70 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6777FB31563D86200CECD70 /* main.m */; };
+		E6777FB81563D86200CECD70 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6777FB71563D86200CECD70 /* AppDelegate.m */; };
+		E6777FBB1563D86200CECD70 /* ViewController.m in Sources */ = {isa = PBXBuildFile; };
+		E6777FBE1563D86200CECD70 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; };
+		E6777FCC1563D91B00CECD70 /* CustomNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E6777FCB1563D91B00CECD70 /* CustomNavigationBar.m */; };
+		E6777FCE1563D94F00CECD70 /* NavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6777FCD1563D94F00CECD70 /* NavigationController.xib */; };
+		E6777FCE1563D94F00CECD72 /* Title.png in Resources */ = {isa = PBXBuildFile; fileRef = E6777FCE1563D94F00CECD71 /* Title.png */; };
+		E6777FCE1563D94F00CECD74 /* Title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E6777FCE1563D94F00CECD73 /* Title@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E6777FA31563D86100CECD70 /* NavigationBarWithShadowDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavigationBarWithShadowDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6777FA71563D86200CECD70 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E6777FA91563D86200CECD70 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E6777FAB1563D86200CECD70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E6777FAF1563D86200CECD70 /* NavigationBarWithShadowDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavigationBarWithShadowDemo-Info.plist"; sourceTree = "<group>"; };
+		E6777FB11563D86200CECD70 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E6777FB31563D86200CECD70 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E6777FB51563D86200CECD70 /* NavigationBarWithShadowDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavigationBarWithShadowDemo-Prefix.pch"; sourceTree = "<group>"; };
+		E6777FB61563D86200CECD70 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E6777FB71563D86200CECD70 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E6777FCA1563D91B00CECD70 /* CustomNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationBar.h; sourceTree = "<group>"; };
+		E6777FCB1563D91B00CECD70 /* CustomNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationBar.m; sourceTree = "<group>"; };
+		E6777FCD1563D94F00CECD70 /* NavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NavigationController.xib; sourceTree = "<group>"; };
+		E6777FCE1563D94F00CECD71 /* Title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title.png; sourceTree = "<group>"; };
+		E6777FCE1563D94F00CECD73 /* Title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Title@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6777FA01563D86100CECD70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6777FA81563D86200CECD70 /* UIKit.framework in Frameworks */,
+				E6777FAA1563D86200CECD70 /* Foundation.framework in Frameworks */,
+				E6777FAC1563D86200CECD70 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E6777F981563D86100CECD70 = {
+			isa = PBXGroup;
+			children = (
+				E6777FAD1563D86200CECD70 /* NavigationBarWithShadowDemo */,
+				E6777FA61563D86200CECD70 /* Frameworks */,
+				E6777FA41563D86100CECD70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E6777FA41563D86100CECD70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6777FA31563D86100CECD70 /* NavigationBarWithShadowDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6777FA61563D86200CECD70 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6777FA71563D86200CECD70 /* UIKit.framework */,
+				E6777FA91563D86200CECD70 /* Foundation.framework */,
+				E6777FAB1563D86200CECD70 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6777FAD1563D86200CECD70 /* NavigationBarWithShadowDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E6777FC81563D8EB00CECD70 /* View */,
+				E6777FB61563D86200CECD70 /* AppDelegate.h */,
+				E6777FB71563D86200CECD70 /* AppDelegate.m */,
+				E6777FAE1563D86200CECD70 /* Supporting Files */,
+			);
+			path = NavigationBarWithShadowDemo;
+			sourceTree = "<group>";
+		};
+		E6777FAE1563D86200CECD70 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6777FCE1563D94F00CECD73 /* Title@2x.png */,
+				E6777FCE1563D94F00CECD71 /* Title.png */,
+				E6777FAF1563D86200CECD70 /* NavigationBarWithShadowDemo-Info.plist */,
+				E6777FB01563D86200CECD70 /* InfoPlist.strings */,
+				E6777FB31563D86200CECD70 /* main.m */,
+				E6777FB51563D86200CECD70 /* NavigationBarWithShadowDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E6777FC81563D8EB00CECD70 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6777FCD1563D94F00CECD70 /* NavigationController.xib */,
+				E6777FCA1563D91B00CECD70 /* CustomNavigationBar.h */,
+				E6777FCB1563D91B00CECD70 /* CustomNavigationBar.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6777FA21563D86100CECD70 /* NavigationBarWithShadowDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6777FC11563D86200CECD70 /* Build configuration list for PBXNativeTarget "NavigationBarWithShadowDemo" */;
+			buildPhases = (
+				E6777F9F1563D86100CECD70 /* Sources */,
+				E6777FA01563D86100CECD70 /* Frameworks */,
+				E6777FA11563D86100CECD70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavigationBarWithShadowDemo;
+			productName = NavigationBarWithShadowDemo;
+			productReference = E6777FA31563D86100CECD70 /* NavigationBarWithShadowDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6777F9A1563D86100CECD70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = lostinmalmo.com;
+			};
+			buildConfigurationList = E6777F9D1563D86100CECD70 /* Build configuration list for PBXProject "NavigationBarWithShadowDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E6777F981563D86100CECD70;
+			productRefGroup = E6777FA41563D86100CECD70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6777FA21563D86100CECD70 /* NavigationBarWithShadowDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6777FA11563D86100CECD70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6777FB21563D86200CECD70 /* InfoPlist.strings in Resources */,
+				E6777FBE1563D86200CECD70 /* ViewController.xib in Resources */,
+				E6777FCE1563D94F00CECD70 /* NavigationController.xib in Resources */,
+				E6777FCE1563D94F00CECD72 /* Title.png in Resources */,
+				E6777FCE1563D94F00CECD74 /* Title@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6777F9F1563D86100CECD70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6777FB41563D86200CECD70 /* main.m in Sources */,
+				E6777FB81563D86200CECD70 /* AppDelegate.m in Sources */,
+				E6777FBB1563D86200CECD70 /* ViewController.m in Sources */,
+				E6777FCC1563D91B00CECD70 /* CustomNavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E6777FB01563D86200CECD70 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6777FB11563D86200CECD70 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6777FBF1563D86200CECD70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E6777FC01563D86200CECD70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6777FC21563D86200CECD70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationBarWithShadowDemo/NavigationBarWithShadowDemo-Prefix.pch";
+				INFOPLIST_FILE = "NavigationBarWithShadowDemo/NavigationBarWithShadowDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E6777FC31563D86200CECD70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavigationBarWithShadowDemo/NavigationBarWithShadowDemo-Prefix.pch";
+				INFOPLIST_FILE = "NavigationBarWithShadowDemo/NavigationBarWithShadowDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6777F9D1563D86100CECD70 /* Build configuration list for PBXProject "NavigationBarWithShadowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6777FBF1563D86200CECD70 /* Debug */,
+				E6777FC01563D86200CECD70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6777FC11563D86200CECD70 /* Build configuration list for PBXNativeTarget "NavigationBarWithShadowDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6777FC21563D86200CECD70 /* Debug */,
+				E6777FC31563D86200CECD70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6777F9A1563D86100CECD70 /* Project object */;
+}
